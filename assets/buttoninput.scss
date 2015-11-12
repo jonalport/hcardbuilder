@@ -1,0 +1,30 @@
+/* Button input component */
+.button-input__button {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-size: 2rem;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  color: #fff;
+  font-family: $sans-serif;
+  font-weight: 400;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button-input__button:hover {
+  border-bottom: 0;
+  margin-top: 2px;
+}
+.button-input__button--upload {
+  background: #627b8b;
+  border-bottom: 2px solid #3f515d;
+}
+.button-input__button--create {
+  background: #3498db;
+  border-bottom: 2px solid #2980b9;
+}
+.button-input__file-input {
+  display: none;
+}

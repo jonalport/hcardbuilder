@@ -1,0 +1,30 @@
+/* Media queries */
+@media only screen and (min-width: 450px) {
+  .hcard__col {
+    width: 50%;
+    float: left;
+  }
+  .form-row {
+    margin: 0 -10px;
+    overflow: hidden;
+  }
+  .text-input,
+  .button-input {
+    padding: 0 10px;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .hcard-builder__inputs {
+    float: left;
+    width: 50%;
+    height: 100%;
+  }
+  .hcard-builder__preview {
+    float: left;
+    width: 50%;
+    padding-top: 100px;
+  }
+}

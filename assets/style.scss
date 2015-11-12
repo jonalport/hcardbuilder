@@ -1,0 +1,20 @@
+@import "variables";
+@import "hcardbuilder";
+@import "textinput";
+@import "buttoninput";
+@import "hcard";
+@import "queries";
+
+// Reset elements
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #e1e4e7;
+  font-family: $sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #000;
+}

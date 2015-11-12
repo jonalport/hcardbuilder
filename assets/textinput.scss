@@ -1,0 +1,21 @@
+/* Text input component */
+.text-input__label {
+  display: block;
+  color: #2c3e50;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-size: 1.2rem;
+  margin-bottom: 2px;
+}
+.text-input__input {
+  margin-bottom: 20px;
+  font-family: $serif;
+  font-weight: 400;
+  border: 1px solid #c3c4c3;
+  border-radius: 4px;
+  font-size: 16px;
+  font-size: 1.6rem;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+}
